@@ -651,4 +651,14 @@ button:hover {
         width: 230px;
         align-self: flex;
     }
+
+    .contact__container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: stretch;
+
+    }
 }
