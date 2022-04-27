@@ -126,6 +126,7 @@ img {
 
 .l-header {
     width: 100%;
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -354,7 +355,7 @@ button:hover {
     position: absolute;
     bottom: -.75rem;
     height: .25rem;
-    background-color: var(--first-color);
+    background-color: green;
 }
 
 .skill__html {
@@ -623,6 +624,13 @@ button:hover {
     .skills__container{
         row-gap: 2rem;
     }
+    .skills__bar {
+        position: absolute;
+        bottom: -.75rem;
+        height: 1rem;
+        background-color: green;
+    }
+    
     .project__container{
         
             display: flex;
